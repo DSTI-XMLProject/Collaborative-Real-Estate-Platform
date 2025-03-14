@@ -62,11 +62,6 @@ This project involves designing and utilizing an **XML database** for a collabor
    ```sh
    python code/main.py
    ```
-   or
-   ```sh
-   javac code/Main.java && java -cp code Main
-   ```
-
 ## 📑 Documentation
 For more details, refer to the **report.pdf**, which explains the modeling approach, scenario descriptions, and implementation details.
 
