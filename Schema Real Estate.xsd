@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RealEstate>
+    <Users>
+        <User>
+            <id>U001</id>
+            <firstName>Franck</firstName>
+            <lastName>Lenar</lastName>
+            <email>FranckLenar@gmail.com</email>
+            <phoneNumber>+1234567890</phoneNumber>
+            <address>
+                <street>123 Main St</street>
+                <city>New York</city>
+                <state>NY</state>
+                <postalCode>10001</postalCode>
+                <country>USA</country>
+            </address>
+            <role>buyer</role>
+            <registrationDate>2024-03-25</registrationDate>
+            <isActive>true</isActive>
+        </User>
+        <User>
+            <id>U002</id>
+            <firstName>Magalie</firstName>
+            <lastName>Parker</lastName>
+            <email>MagalieParker@hotmail.com</email>
+            <phoneNumber>+1122334455</phoneNumber>
+            <address>
+                <street>789 Pine St</street>
+                <city>Chicago</city>
+                <state>IL</state>
+                <postalCode>60601</postalCode>
+                <country>USA</country>
+            </address>
+            <role>seller</role>
+            <registrationDate>2023-11-10</registrationDate>
+            <isActive>true</isActive>
+        </User>
+    </Users>
+    
+    <Properties>
+        <Property>
+            <propertyId>P001</propertyId>
+            <title>Luxury Apartment</title>
+            <description>Beautiful 2-bedroom apartment in downtown.</description>
+            <address>
+                <street>456 Elm St</street>
+                <city>Los Angeles</city>
+                <state>CA</state>
+                <postalCode>90001</postalCode>
+                <country>USA</country>
+            </address>
+            <price>500000</price>
+            <area>120</area>
+            <numberOfRooms>2</numberOfRooms>
+            <propertyType>apartment</propertyType>
+            <listingDate>2024-03-20</listingDate>
+            <status>available</status>
+            <ownerId>U002</ownerId>
+        </Property>
+        <Property>
+            <propertyId>P002</propertyId>
+            <title>Cozy Family Home</title>
+            <description>Spacious 4-bedroom house with a backyard.</description>
+            <address>
+                <street>101 Oak St</street>
+                <city>Miami</city>
+                <state>FL</state>
+                <postalCode>33101</postalCode>
+                <country>USA</country>
+            </address>
+            <price>750000</price>
+            <area>200</area>
+            <numberOfRooms>4</numberOfRooms>
+            <propertyType>house</propertyType>
+            <listingDate>2024-02-15</listingDate>
+            <status>available</status>
+            <ownerId>U003</ownerId>
+        </Property>
+    </Properties>
+    
+    <Transactions>
+        <Transaction>
+            <transactionId>T001</transactionId>
+            <transactionType>purchase</transactionType>
+            <propertyId>P001</propertyId>
+            <buyerId>U001</buyerId>
+            <sellerId>U002</sellerId>
+            <transactionDate>2024-03-23</transactionDate>
+            <amount>500000</amount>
+            <status>completed</status>
+        </Transaction>
+    </Transactions>
+    
+    <VisitBookings>
+        <VisitBooking>
+            <bookingId>V001</bookingId>
+            <propertyId>P001</propertyId>
+            <userId>U001</userId>
+            <visitDate>2024-03-26</visitDate>
+            <status>confirmed</status>
+        </VisitBooking>
+        <VisitBooking>
+            <bookingId>V002</bookingId>
+            <propertyId>P002</propertyId>
+            <userId>U003</userId>
+            <visitDate>2024-03-30</visitDate>
+            <status>pending</status>
+        </VisitBooking>
+    </VisitBookings>
+</RealEstate>
