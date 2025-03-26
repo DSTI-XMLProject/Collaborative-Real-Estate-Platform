@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RealEstate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="RealEstatePlat.Schema.xsd">
+<!-- Document root element, which references the XSD schema for validation -->
+    
+    <!-- Section: Users (10 entries) -->
+
+    <Users>
+        <!-- Users 1 -->
+        <User>
+            <id>1</id>
+            <firstName>Alice</firstName>
+            <lastName>Dupont</lastName>
+            <email>alice.dupont@example.com</email>
+            <phoneNumber>0123456789</phoneNumber>
+            <address>
+                <street>123 Rue de Paris</street>
+                <city>Paris</city>
+                <state>Île-de-France</state>
+                <postalCode>75000</postalCode>
+                <country>France</country>
+                <latitude>48.8566</latitude>
+                <longitude>2.3522</longitude>
+            </address>
+            <role>buyer</role>
+            <registrationDate>2023-01-15</registrationDate>
+            <isActive>true</isActive>
+            <profilePicture>http://example.com/images/alice.jpg</profilePicture>
+            <rating>4.5</rating>
+        </User>
+        <!-- Users 2 -->
+        <User>
+            <id>2</id>
+            <firstName>Bob</firstName>
+            <lastName>Martin</lastName>
+            <email>bob.martin@example.com</email>
+            <phoneNumber>0987654321</phoneNumber>
+            <address>
+                <street>45 Avenue Victor Hugo</street>
+                <city>Lyon</city>
+                <state>Auvergne-Rhône-Alpes</state>
+                <postalCode>69007</postalCode>
+                <country>France</country>
+            </address>
+            <role>seller</role>
+            <registrationDate>2023-02-20</registrationDate>
+            <isActive>true</isActive>
+            <profilePicture>http://example.com/images/bob.jpg</profilePicture>
+        </User>
+        <!-- User 3 -->
+        <User>
+            <id>3</id>
+            <firstName>Claire</firstName>
+            <lastName>Durand</lastName>
+            <email>claire.durand@example.com</email>
+            <phoneNumber>0112233445</phoneNumber>
+            <address>
+                <street>78 Boulevard Saint-Germain</street>
+                <city>Paris</city>
+                <state>Île-de-France</state>
+                <postalCode>75005</postalCode>
+                <country>France</country>
+            </address>
+            <role>agent</role>
+            <registrationDate>2023-03-05</registrationDate>
+            <isActive>true</isActive>
+        </User>
+        <!-- User 4 -->
+        <User>
+            <id>4</id>
+            <firstName>David</firstName>
+            <lastName>Moreau</lastName>
+            <email>david.moreau@example.com</email>
+            <phoneNumber>0123987654</phoneNumber>
+            <address>
+                <street>25 Rue de la République</street>
+                <city>Marseille</city>
+                <state>Provence-Alpes-Côte d'Azur</state>
+                <postalCode>13001</postalCode>
+                <country>France</country>
+            </address>
+            <role>tenant</role>
+            <registrationDate>2023-04-10</registrationDate>
+            <isActive>true</isActive>
+        </User>
+        <!-- User 5 -->
+        <User>
+            <id>5</id>
+            <firstName>Emma</firstName>
+            <lastName>Leroy</lastName>
+            <email>emma.leroy@example.com</email>
+            <phoneNumber>0156789123</phoneNumber>
+            <address>
+                <street>12 Rue Victor Hugo</street>
+                <city>Bordeaux</city>
+                <state>Nouvelle-Aquitaine</state>
+                <postalCode>33000</postalCode>
+                <country>France</country>
+            </address>
+            <role>buyer</role>
+            <registrationDate>2023-05-22</registrationDate>
+            <isActive>false</isActive>
+        </User>
+        <!-- User 6 -->
+        <User>
+            <id>6</id>
+            <firstName>Franck</firstName>
+            <lastName>Garnier</lastName>
+            <email>franck.garnier@example.com</email>
+            <phoneNumber>0167891234</phoneNumber>
+            <address>
+                <street>89 Rue de Lille</street>
+                <city>Lille</city>
+                <state>Hauts-de-France</state>
+                <postalCode>59000</postalCode>
+                <country>France</country>
+            </address>
+            <role>seller</role>
+            <registrationDate>2023-06-15</registrationDate>
+            <isActive>true</isActive>
+        </User>
+        <!-- User 7 -->
+        <User>
+            <id>7</id>
+            <firstName>Gabrielle</firstName>
+            <lastName>Petit</lastName>
+            <email>gabrielle.petit@example.com</email>
+            <phoneNumber>0178912345</phoneNumber>
+            <address>
+                <street>3 Avenue des Champs-Élysées</street>
+                <city>Paris</city>
+                <state>Île-de-France</state>
+                <postalCode>75008</postalCode>
+                <country>France</country>
+            </address>
+            <role>agent</role>
+            <registrationDate>2023-07-03</registrationDate>
+            <isActive>true</isActive>
+        </User>
+        <!-- User 8 -->
+        <User>
+            <id>8</id>
+            <firstName>Hugo</firstName>
+            <lastName>Roux</lastName>
+            <email>hugo.roux@example.com</email>
+            <phoneNumber>0189123456</phoneNumber>
+            <address>
+                <street>56 Rue Nationale</street>
+                <city>Strasbourg</city>
+                <state>Grand Est</state>
+                <postalCode>67000</postalCode>
+                <country>France</country>
+            </address>
+            <role>tenant</role>
+            <registrationDate>2023-08-12</registrationDate>
+            <isActive>true</isActive>
+        </User>
+        <!-- User 9 -->
+        <User>
+            <id>9</id>
+            <firstName>Isabelle</firstName>
+            <lastName>Morel</lastName>
+            <email>isabelle.morel@example.com</email>
+            <phoneNumber>0191234567</phoneNumber>
+            <address>
+                <street>100 Rue de Lyon</street>
+                <city>Lyon</city>
+                <state>Auvergne-Rhône-Alpes</state>
+                <postalCode>69002</postalCode>
+                <country>France</country>
+            </address>
+            <role>buyer</role>
+            <registrationDate>2023-09-01</registrationDate>
+            <isActive>false</isActive>
+        </User>
+        <!-- User 10 -->
+        <User>
+            <id>10</id>
+            <firstName>Julien</firstName>
+            <lastName>Garcia</lastName>
+            <email>julien.garcia@example.com</email>
+            <phoneNumber>0102345678</phoneNumber>
+            <address>
+                <street>77 Boulevard de la République</street>
+                <city>Nantes</city>
+                <state>Pays de la Loire</state>
+                <postalCode>44000</postalCode>
+                <country>France</country>
+            </address>
+            <role>seller</role>
+            <registrationDate>2023-10-10</registrationDate>
+            <isActive>true</isActive>
+        </User>
+    </Users>
+    
+    <!-- Section: Properties (8 entries) -->
+
+    <Properties>
+        <!-- Property 101 -->
+        <Property>
+            <propertyId>101</propertyId>
+            <title>Bright apartment</title>
+            <description>3-room apartment in the heart of Paris.</description>
+            <address>
+                <street>45 Rue de Rivoli</street>
+                <city>Paris</city>
+                <state>Île-de-France</state>
+                <postalCode>75004</postalCode>
+                <country>France</country>
+            </address>
+            <price>350000.00</price>
+            <area>80.5</area>
+            <numberOfRooms>3</numberOfRooms>
+            <propertyType>apartment</propertyType>
+            <listingDate>2023-02-01</listingDate>
+            <status>available</status>
+            <features>
+                <feature>Balcony</feature>
+                <feature>View of the Eiffel Tower</feature>
+            </features>
+            <images>
+                <image>http://example.com/images/property101_1.jpg</image>
+                <image>http://example.com/images/property101_2.jpg</image>
+            </images>
+            <ownerId>2</ownerId>
+        </Property>
+        <!-- Property 102 -->
+        <Property>
+            <propertyId>102</propertyId>
+            <title>Family home</title>
+            <description>Large house with garden on the outskirts of Lyon.</description>
+            <address>
+                <street>12 Rue des Fleurs</street>
+                <city>Lyon</city>
+                <state>Auvergne-Rhône-Alpes</state>
+                <postalCode>69003</postalCode>
+                <country>France</country>
+            </address>
+            <price>450000.00</price>
+            <area>150.0</area>
+            <numberOfRooms>5</numberOfRooms>
+            <propertyType>house</propertyType>
+            <listingDate>2023-03-10</listingDate>
+            <status>available</status>
+            <features>
+                <feature>Garden</feature>
+                <feature>Garage</feature>
+            </features>
+            <images>
+                <image>http://example.com/images/property102_1.jpg</image>
+            </images>
+            <ownerId>5</ownerId>
+        </Property>
+        <!-- Property 103 -->
+        <Property>
+            <propertyId>103</propertyId>
+            <title>Luxury villa</title>
+            <description>Modern villa with pool and panoramic view.</description>
+            <address>
+                <street>200 Boulevard des Dames</street>
+                <city>Cannes</city>
+                <state>Provence-Alpes-Côte d'Azur</state>
+                <postalCode>06400</postalCode>
+                <country>France</country>
+            </address>
+            <price>1250000.00</price>
+            <area>350.0</area>
+            <numberOfRooms>7</numberOfRooms>
+            <propertyType>villa</propertyType>
+            <listingDate>2023-04-15</listingDate>
+            <status>available</status>
+            <features>
+                <feature>Swimming Pool</feature>
+                <feature>Garden</feature>
+            </features>
+            <images>
+                <image>http://example.com/images/property103_1.jpg</image>
+                <image>http://example.com/images/property103_2.jpg</image>
+            </images>
+            <ownerId>7</ownerId>
+        </Property>
+        <!-- Propriété 104 -->
+        <Property>
+            <propertyId>104</propertyId>
+            <title>Modern office</title>
+            <description>Office located in a dynamic business district.</description>
+            <address>
+                <street>88 Avenue des Champs</street>
+                <city>Paris</city>
+                <state>Île-de-France</state>
+                <postalCode>75008</postalCode>
+                <country>France</country>
+            </address>
+            <price>800000.00</price>
+            <area>120.0</area>
+            <numberOfRooms>4</numberOfRooms>
+            <propertyType>commercial</propertyType>
+            <listingDate>2023-05-05</listingDate>
+            <status>available</status>
+            <features>
+                <feature>Central location</feature>
+                <feature>Parking</feature>
+            </features>
+            <images>
+                <image>http://example.com/images/property104_1.jpg</image>
+            </images>
+            <ownerId>6</ownerId>
+        </Property>
+        <!-- Propriété 105 -->
+        <Property>
+            <propertyId>105</propertyId>
+            <title>Apartement cosy</title>
+            <description>Small apartment ideal for a single person in central Lille.</description>
+            <address>
+                <street>22 Rue des Artistes</street>
+                <city>Lille</city>
+                <state>Hauts-de-France</state>
+                <postalCode>59000</postalCode>
+                <country>France</country>
+            </address>
+            <price>200000.00</price>
+            <area>45.0</area>
+            <numberOfRooms>2</numberOfRooms>
+            <propertyType>apartment</propertyType>
+            <listingDate>2023-06-18</listingDate>
+            <status>available</status>
+            <features>
+                <feature>Proximity to transport</feature>
+            </features>
+            <images>
+                <image>http://example.com/images/property105_1.jpg</image>
+            </images>
+            <ownerId>9</ownerId>
+        </Property>
+        <!-- Propriété 106 -->
+        <Property>
+            <propertyId>106</propertyId>
+            <title>Mountain chalet</title>
+            <description>Wooden chalet in the Alps, ideal for winter vacations.</description>
+            <address>
+                <street>10 Chemin du Sommet</street>
+                <city>Chamonix</city>
+                <state>Auvergne-Rhône-Alpes</state>
+                <postalCode>74400</postalCode>
+                <country>France</country>
+            </address>
+            <price>600000.00</price>
+            <area>100.0</area>
+            <numberOfRooms>4</numberOfRooms>
+            <propertyType>house</propertyType>
+            <listingDate>2023-07-12</listingDate>
+            <status>available</status>
+            <features>
+                <feature>Mountain views</feature>
+            </features>
+            <images>
+                <image>http://example.com/images/property106_1.jpg</image>
+                <image>http://example.com/images/property106_2.jpg</image>
+            </images>
+            <ownerId>3</ownerId>
+        </Property>
+        <!-- Propriété 107 -->
+        <Property>
+            <propertyId>107</propertyId>
+            <title>Commercial premises</title>
+            <description>Suitable premises to open a store in a lively neighborhood.</description>
+            <address>
+                <street>5 Rue du Commerce</street>
+                <city>Strasbourg</city>
+                <state>Grand Est</state>
+                <postalCode>67000</postalCode>
+                <country>France</country>
+            </address>
+            <price>500000.00</price>
+            <area>90.0</area>
+            <numberOfRooms>3</numberOfRooms>
+            <propertyType>commercial</propertyType>
+            <listingDate>2023-08-20</listingDate>
+            <status>available</status>
+            <features>
+                <feature>Good visibility</feature>
+            </features>
+            <images>
+                <image>http://example.com/images/property107_1.jpg</image>
+            </images>
+            <ownerId>4</ownerId>
+        </Property>
+        <!-- Propriété 108 -->
+        <Property>
+            <propertyId>108</propertyId>
+            <title>Student studio</title>
+            <description>Small studio ideal for a student, close to public transport.</description>
+            <address>
+                <street>30 Rue de l'Étudiant</street>
+                <city>Toulouse</city>
+                <state>Occitanie</state>
+                <postalCode>31000</postalCode>
+                <country>France</country>
+            </address>
+            <price>150000.00</price>
+            <area>30.0</area>
+            <numberOfRooms>1</numberOfRooms>
+            <propertyType>apartment</propertyType>
+            <listingDate>2023-09-05</listingDate>
+            <status>available</status>
+            <features>
+                <feature>University proximity</feature>
+            </features>
+            <images>
+                <image>http://example.com/images/property108_1.jpg</image>
+            </images>
+            <ownerId>8</ownerId>
+        </Property>
+    </Properties>
+    
+    <!-- Section: Transactions (6 entries) -->
+
+    <Transactions>
+        <!-- Transaction 1 -->
+        <Transaction>
+            <transactionId>1</transactionId>
+            <transactionType>purchase</transactionType>
+            <propertyId>101</propertyId>
+            <buyerId>1</buyerId>
+            <sellerId>2</sellerId>
+            <agentId>3</agentId>
+            <transactionDate>2023-03-01</transactionDate>
+            <amount>350000.00</amount>
+            <paymentMethod>transfer</paymentMethod>
+            <status>completed</status>
+        </Transaction>
+        <!-- Transaction 2 -->
+        <Transaction>
+            <transactionId>2</transactionId>
+            <transactionType>rental</transactionType>
+            <propertyId>102</propertyId>
+            <buyerId>4</buyerId>
+            <sellerId>5</sellerId>
+            <agentId>7</agentId>
+            <transactionDate>2023-04-15</transactionDate>
+            <amount>1200.00</amount>
+            <paymentMethod>card</paymentMethod>
+            <status>completed</status>
+        </Transaction>
+        <!-- Transaction 3 -->
+        <Transaction>
+            <transactionId>3</transactionId>
+            <transactionType>sale</transactionType>
+            <propertyId>103</propertyId>
+            <buyerId>1</buyerId>
+            <sellerId>7</sellerId>
+            <agentId>3</agentId>
+            <transactionDate>2023-05-20</transactionDate>
+            <amount>1250000.00</amount>
+            <paymentMethod>transfer</paymentMethod>
+            <status>completed</status>
+        </Transaction>
+        <!-- Transaction 4 -->
+        <Transaction>
+            <transactionId>4</transactionId>
+            <transactionType>purchase</transactionType>
+            <propertyId>104</propertyId>
+            <buyerId>2</buyerId>
+            <sellerId>6</sellerId>
+            <agentId>7</agentId>
+            <transactionDate>2023-06-10</transactionDate>
+            <amount>800000.00</amount>
+            <paymentMethod>transfer</paymentMethod>
+            <status>pending</status>
+        </Transaction>
+        <!-- Transaction 5 -->
+        <Transaction>
+            <transactionId>5</transactionId>
+            <transactionType>rental</transactionType>
+            <propertyId>105</propertyId>
+            <buyerId>8</buyerId>
+            <sellerId>9</sellerId>
+            <!-- No agent specified -->
+            <transactionDate>2023-07-25</transactionDate>
+            <amount>800.00</amount>
+            <status>completed</status>
+        </Transaction>
+        <!-- Transaction 6 -->
+        <Transaction>
+            <transactionId>6</transactionId>
+            <transactionType>sale</transactionType>
+            <propertyId>106</propertyId>
+            <buyerId>2</buyerId>
+            <sellerId>3</sellerId>
+            <agentId>7</agentId>
+            <transactionDate>2023-08-30</transactionDate>
+            <amount>600000.00</amount>
+            <paymentMethod>transfer</paymentMethod>
+            <status>cancelled</status>
+        </Transaction>
+    </Transactions>
+    
+    <!-- Section: Agencies (2 entries) -->
+
+    <Agencies>
+        <!-- Agency 1 -->
+        <Agency>
+            <agencyId>1</agencyId>
+            <name>Paris Real Estate Agency</name>
+            <address>
+                <street>10 Rue de la Paix</street>
+                <city>Paris</city>
+                <state>Île-de-France</state>
+                <postalCode>75002</postalCode>
+                <country>France</country>
+            </address>
+            <phoneNumber>0147852369</phoneNumber>
+            <email>contact@parisimmobilier.com</email>
+            <website>http://www.parisimmobilier.com</website>
+        </Agency>
+        <!-- Agency 2 -->
+        <Agency>
+            <agencyId>2</agencyId>
+            <name>Lyon real estate</name>
+            <address>
+                <street>25 Avenue Jean Jaurès</street>
+                <city>Lyon</city>
+                <state>Auvergne-Rhône-Alpes</state>
+                <postalCode>69005</postalCode>
+                <country>France</country>
+            </address>
+            <phoneNumber>0153264789</phoneNumber>
+            <email>info@immobilierlyonnais.com</email>
+            <website>http://www.immobilierlyonnais.com</website>
+        </Agency>
+    </Agencies>
+    
+    <!-- Section: Listings (3 entries) -->
+
+    <Listings>
+        <!-- Listing 1 -->
+        <Listing>
+            <listingId>1</listingId>
+            <propertyId>101</propertyId>
+            <listedBy>3</listedBy>
+            <listingDate>2023-03-05</listingDate>
+            <listingStatus>active</listingStatus>
+            <description>Ad for a bright apartment in the heart of Paris.</description>
+        </Listing>
+        <!-- Listing 2 -->
+        <Listing>
+            <listingId>2</listingId>
+            <propertyId>102</propertyId>
+            <listedBy>7</listedBy>
+            <listingDate>2023-04-20</listingDate>
+            <listingStatus>active</listingStatus>
+            <description>Ad for a family home with garden in Lyon.</description>
+        </Listing>
+        <!-- Listing 3 -->
+        <Listing>
+            <listingId>3</listingId>
+            <propertyId>103</propertyId>
+            <listedBy>3</listedBy>
+            <listingDate>2023-05-25</listingDate>
+            <listingStatus>expired</listingStatus>
+            <description>Advertisement for a luxury villa with swimming pool in Cannes.</description>
+        </Listing>
+    </Listings>
+    
+    <!-- Section: Reviews (4 entries) -->
+
+    <Reviews>
+        <!-- Review 1 -->
+        <Review>
+            <reviewId>1</reviewId>
+            <userId>1</userId>
+            <targetId>101</targetId>
+            <targetType>Property</targetType>
+            <rating>4.0</rating>
+            <comment>Very nice apartment, but a bit expensive.</comment>
+            <reviewDate>2023-04-01</reviewDate>
+        </Review>
+        <!-- Review 2 -->
+        <Review>
+            <reviewId>2</reviewId>
+            <userId>4</userId>
+            <targetId>2</targetId>
+            <targetType>User</targetType>
+            <rating>4.5</rating>
+            <comment>Excellent agent, very responsive and professional.</comment>
+            <reviewDate>2023-05-10</reviewDate>
+        </Review>
+        <!-- Review 3 -->
+        <Review>
+            <reviewId>3</reviewId>
+            <userId>6</userId>
+            <targetId>104</targetId>
+            <targetType>Property</targetType>
+            <rating>3.5</rating>
+            <comment>Commercial premises in a good location but in need of renovation.</comment>
+            <reviewDate>2023-06-15</reviewDate>
+        </Review>
+        <!-- Review 4 -->
+        <Review>
+            <reviewId>4</reviewId>
+            <userId>8</userId>
+            <targetId>107</targetId>
+            <targetType>Property</targetType>
+            <rating>4.0</rating>
+            <comment>Good commercial premises with excellent visibility.</comment>
+            <reviewDate>2023-07-20</reviewDate>
+        </Review>
+    </Reviews>
+    
+    <!-- Section: Appointments (2 entries) -->
+
+    <Appointments>
+        <!-- Appointment 1 -->
+        <Appointment>
+            <appointmentId>1</appointmentId>
+            <propertyId>105</propertyId>
+            <userId>4</userId>
+            <agentId>7</agentId>
+            <appointmentDateTime>2023-08-15T10:00:00</appointmentDateTime>
+            <status>confirmed</status>
+        </Appointment>
+        <!-- Appointment 2 -->
+        <Appointment>
+            <appointmentId>2</appointmentId>
+            <propertyId>108</propertyId>
+            <userId>10</userId>
+            <agentId>3</agentId>
+            <appointmentDateTime>2023-09-10T14:30:00</appointmentDateTime>
+            <status>pending</status>
+        </Appointment>
+    </Appointments>
+
+</RealEstate>
+
+</RealEstate>
