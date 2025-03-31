@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<AppointmentsByProperty>
+  <PropertyAppointments propertyId="100">
+    <Appointment>
+      <User>1</User>
+      <Agent>2</Agent>
+      <DateTime>2025-04-01T10:00:00</DateTime>
+      <Status>confirmed</Status>
+    </Appointment>
+    <Appointment>
+      <User>2</User>
+      <Agent>1</Agent>
+      <DateTime>2025-04-02T11:00:00</DateTime>
+      <Status>pending</Status>
+    </Appointment>
+  </PropertyAppointments>
+  <PropertyAppointments propertyId="101">
+    <Appointment>
+      <User>1</User>
+      <Agent>2</Agent>
+      <DateTime>2025-04-03T09:00:00</DateTime>
+      <Status>cancelled</Status>
+    </Appointment>
+  </PropertyAppointments>
+</AppointmentsByProperty>
