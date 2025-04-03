@@ -66,9 +66,9 @@ This project involves designing and utilizing an **XML database** for a collabor
 For more details, refer to the **report.pdf**, which explains the modeling approach, scenario descriptions, and implementation details.
 
 ## 🤝 Contributors
-- **[]** - (Role & Contributions)
-- **[]** - (Role & Contributions)
-- **[]** - (Role & Contributions)
+- ** ** - 
+- ** ** - 
+- ** ** - 
 
 ## 📜 License
 This project is released under NO LICENSE. Feel free to use and modify it.
