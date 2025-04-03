@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project involves designing and utilizing an **XML database** for a collaborative real estate platform. The platform connects various entities such as properties, buyers, sellers, tenants, lessors, real estate agencies, agents, and service providers (e.g., home inspectors, maintenance services). It enables functionalities like property searches, booking visits, managing transactions, and scheduling services.
+This project involves designing and utilizing an **XML database** for a collaborative real estate platform. The platform connects various entities such as properties, buyers, sellers, tenants and real estate agencies. It enables functionalities like property searches, booking visits and managing transactions.
 
 ## 🏗️ Features & Objectives
 
@@ -13,7 +13,7 @@ This project involves designing and utilizing an **XML database** for a collabor
   - One stylesheet converting XML data into another XML format.
   - One stylesheet converting XML data into JSON format.
 - **Python Implementation:** Demonstrates the usage of an XML API for one scenario.
-- **Comprehensive Report:** Explains modeling choices, scenario implementations, and AI assistance (if used).
+- **Comprehensive Report:** Explains modeling choices, scenario implementations..etc
 
 ## 📂 Repository Structure
 ```
