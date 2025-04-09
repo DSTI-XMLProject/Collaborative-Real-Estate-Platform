@@ -1,0 +1,42 @@
+<AllTransactionsExport>
+   <TransactionRecord>
+      <TransactionID>1001</TransactionID>
+      <TransactionType>purchase</TransactionType>
+      <TransactionDate>2025-04-17</TransactionDate>
+      <Amount>250000.00</Amount>
+      <Status>completed</Status>
+      <Buyer>
+         <BuyerID>3001</BuyerID>
+         <Name>Francky Gomez</Name>
+      </Buyer>
+      <Seller>
+         <SellerID>4001</SellerID>
+         <Name>Selena Donchez</Name>
+      </Seller>
+      <Property>
+         <PropertyID>2001</PropertyID>
+         <Title>Modern Apartment</Title>
+         <Price>250000.00</Price>
+      </Property>
+   </TransactionRecord>
+   <TransactionRecord>
+      <TransactionID>1002</TransactionID>
+      <TransactionType>rental</TransactionType>
+      <TransactionDate>2025-04-01</TransactionDate>
+      <Amount>1500.00</Amount>
+      <Status>completed</Status>
+      <Buyer>
+         <BuyerID/>
+         <Name> </Name>
+      </Buyer>
+      <Seller>
+         <SellerID/>
+         <Name> </Name>
+      </Seller>
+      <Property>
+         <PropertyID>2002</PropertyID>
+         <Title>Cozy Studio</Title>
+         <Price>1500.00</Price>
+      </Property>
+   </TransactionRecord>
+</AllTransactionsExport>
