@@ -20,55 +20,37 @@ This project involves designing and utilizing an **XML database** for a collabor
 📦 collaborative-real-estate-platform
 ├── 📜 report.pdf                 
 ├── 📂 xml                         
-│   ├── database.xml             
-│   ├── schema.xsd                
+│   ├── Real Estate Platform Data.xml          
+│   ├── RealEstatePlat.Schema.xsd            
 ├── 📂 xslt                        
-│   ├── scenario1.xsl             
-│   ├── scenario2.xsl             
-│   ├── scenario3.xsl            
-│   ├── scenario4.xsl             
-│   ├── scenario5.xsl            
-│   ├── scenario6_conversion.xsl  
-│   ├── scenario7_json.xsl       
+│   ├── XSL Stylesheet 1.xsl            
+│   ├── XSL Stylesheet 2.xsl           
+│   ├── XSL Stylesheet 3.xsl          
+│   ├── XSL Stylesheet 4.xsl          
+│   ├── stylesheet_json.xslt           
+│   ├── stylesheet_xml_format.xslt
+│   ├── 6th scenario-real estate.xml     
 ├── 📂 outputs                     
-│   ├── scenario1_output.xml
-│   ├── scenario2_output.xml
-│   ├── scenario3_output.xml
-│   ├── scenario4_output.xml
-│   ├── scenario5_output.xml
-│   ├── scenario6_output.xml
-│   ├── scenario7_output.json
-├── 📂 code            
-│   ├── main.py 
+│   ├── XSL Stylesheet 1 output.html
+│   ├── XSL Stylesheet output 2.html
+│   ├── XSL Stylesheet Output 3.html
+│   ├── XSL Stylesheet Output 4.html
+│   ├── XML_stylesheet_output.xml
+│   ├── JSON_stylesheet_output.json
+│   ├── user_json_output_schema.json
 ├── 📜 README.md                    
-```
+
 
 ## 🚀 Getting Started
 ### Prerequisites
-- XML/XSD Processing Tools (e.g., Oxygen XML Editor, Visual Studio Code with XML plugins)
-- XSLT Processor (e.g., Saxon, Xalan)
-- Python (with `lxml` or `xml.etree.ElementTree`) 
+- XML/XSD Processing Tools 
+- XSLT Processor 
+- Python 
 
-### Usage
-1. **Validate the XML database** against the schema:
-   ```sh
-   xmllint --noout --schema xml/schema.xsd xml/database.xml
-   ```
-2. **Run XSLT transformations** (example using Saxon):
-   ```sh
-   java -jar saxon.jar -s:xml/database.xml -xsl:xslt/scenario1.xsl -o:outputs/scenario1_output.xml
-   ```
-3. **Run the Python script** for an implemented scenario:
-   ```sh
-   python code/main.py
-   ```
+
 ## 📑 Documentation
 For more details, refer to the **report.pdf**, which explains the modeling approach, scenario descriptions, and implementation details.
 
-## 🤝 Contributors
-- ** ** - 
-- ** ** - 
-- ** ** - 
 
 ## 📜 License
 This project is released under NO LICENSE. Feel free to use and modify it.
