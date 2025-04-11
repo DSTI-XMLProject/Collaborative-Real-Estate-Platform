@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Dupont",
+      "email": "alice.dupont@example.com",
+      "phoneNumber": "0123456789",
+      "role": "buyer",
+      "isActive": true,
+      "rating": 4.5,
+      "registrationDate": "2023-01-15",
+      "profilePicture": "http://example.com/images/alice.jpg",
+      "address": {
+        "street": "123 Rue de Paris",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "postalCode": "75000",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Martin",
+      "email": "bob.martin@example.com",
+      "phoneNumber": "0987654321",
+      "role": "seller",
+      "isActive": true,
+      "rating": 4.7,
+      "registrationDate": "2023-02-20",
+      "profilePicture": null,
+      "address": {
+        "street": "45 Avenue Victor Hugo",
+        "city": "Lyon",
+        "state": "Auvergne-Rhône-Alpes",
+        "postalCode": "69007",
+        "country": "France",
+        "latitude": null,
+        "longitude": null
+      }
+    }
+  ]
+}

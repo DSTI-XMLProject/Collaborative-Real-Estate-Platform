@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExpandedUserList",
+  "type": "object",
+  "properties": {
+    "users": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Unique identifier for the user"
+          },
+          "name": {
+            "type": "string",
+            "description": "Full name of the user"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "description": "User email address"
+          },
+          "phoneNumber": {
+            "type": "string",
+            "description": "User phone number"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "buyer",
+              "seller",
+              "agent",
+              "tenant",
+              "owner"
+            ],
+            "description": "Role of the user"
+          },
+          "isActive": {
+            "type": "boolean",
+            "description": "Indicates if the user is currently active"
+          },
+          "rating": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "User's rating (null if not available)"
+          },
+          "registrationDate": {
+            "type": "string",
+            "format": "date",
+            "description": "User registration date"
+          },
+          "profilePicture": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "URL to the user's profile picture (null if not provided)"
+          },
+          "address": {
+            "type": "object",
+            "properties": {
+              "street": {
+                "type": "string"
+              },
+              "city": {
+                "type": "string"
+              },
+              "state": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "postalCode": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string"
+              },
+              "latitude": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "longitude": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "street",
+              "city",
+              "postalCode",
+              "country"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "email",
+          "phoneNumber",
+          "role",
+          "isActive",
+          "address"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "users"
+  ],
+  "additionalProperties": false
+}
